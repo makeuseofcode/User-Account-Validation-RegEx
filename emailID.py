@@ -1,10 +1,10 @@
 import re
 
-def checkEmailId(username):
+def checkEmailId(email):
     regex = "^[\w.-]+@([\w-]+\.)+[\w-]{2,4}$"
     r = re.compile(regex)
 
-    if(re.search(r, username)):
+    if(re.search(r, email)):
         print("Valid")
     else:
         print("Not Valid")
