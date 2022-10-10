@@ -12,5 +12,5 @@ def checkDateFormat(date):
 date1 = "03/21/2002"
 checkDateFormat(date1)
 
-date2 = "03/21/2002"
+date2 = "15/21/2002"
 checkDateFormat(date2)
