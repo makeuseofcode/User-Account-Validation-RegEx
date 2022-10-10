@@ -1,7 +1,7 @@
 import re
 
 def checkUsername(username):
-    regex = "^[A-Za-z]\\w{5,29}$"
+    regex = "^[A-Za-z]\\w{4,14}$"
     r = re.compile(regex)
 
     if(re.search(r, username)):
